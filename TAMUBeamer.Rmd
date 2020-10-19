@@ -1,0 +1,35 @@
+---
+title: "TAMUBeamer"
+subtitle: ""
+author: Yabin Da
+date: "`r Sys.Date()`"
+institute: Department of Agricultural Economics
+fontsize: 10pt
+output:
+ beamer_presentation:
+    template: C:/work/TAMUBeamer/TAMUBeamer/TAMUTemplate.tex
+    keep_tex: true
+    slide_level: 3
+make149: true
+
+
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+
+
+### A TAMU Beamer Example
+
+```{r, out.width="60%", fig.cap='Reveille IX', fig.align='center', fig.show='hold'}
+  
+knitr::include_graphics(c('tamu/Reveille IX.jpg'))
+  
+```
+
+
+
